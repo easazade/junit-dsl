@@ -1,4 +1,2 @@
 # junit-dsl
-
-
-DSL extension for JUnit - plus helper functions
+dsl extension plus useful helper functions for java junit testing library
