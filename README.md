@@ -1,6 +1,4 @@
 # junit-dsl
-
-
 ![screenshot 1](junit-dsl-logo-small.png?raw=true "screenshot")
 
 
