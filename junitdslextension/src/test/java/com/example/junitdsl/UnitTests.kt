@@ -1,6 +1,5 @@
 package com.example.junitdsl
 
-import org.junit.Assert.assertEquals
 import org.junit.Test
 
 class UnitTests {
@@ -31,27 +30,7 @@ class UnitTests {
         car1 shouldBeSameAs car2
     }
 
-    @Test
-    fun shouldContainAtLeastOneItemMatching() {
-        //with
-        val list = listOf("item1", "item2", "car", "dog")
-        //make sure
-        list shouldContainAtLeasOneItemMatching { it.contains("item") }
-    }
 
-    @Test(expected = AssertionError::class)
-    fun shouldContainAtLeastOneItemMatching2() {
-        //with
-        val list = listOf("item1", "item2", "car", "dog")
-        //make sure
-        list shouldContainAtLeasOneItemMatching { it.contains("boom") }
-    }
 
-    @Test
-    fun should() {
-        val address = "C:\\Android.SDK"
-        val result = System.getenv("ANDROID_HOME")
-        assertEquals(result, address)
-    }
 
 }
