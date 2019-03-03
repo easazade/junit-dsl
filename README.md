@@ -16,7 +16,9 @@ repositories {
 	}
 }
 </pre>
-    <pre>testImplementation 'ir.alireza.easazade:junit-dsl:0.1.1'
+<pre>
+//add this to your app(/module) dependencies
+testImplementation 'ir.alireza.easazade:junit-dsl:0.1.1'
 </pre>
 </td>
 </tr>
