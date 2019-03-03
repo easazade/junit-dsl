@@ -2,7 +2,7 @@
 ![screenshot 1](junit-dsl-logo-small.png?raw=true "screenshot")
 
 
-dsl extension plus useful helper functions for java junit testing library
+kotlin dsl extension plus useful helper functions for java junit testing library
 <br>
 <br>
 <br>
