@@ -5,8 +5,6 @@
 kotlin dsl extension plus useful helper functions for java junit testing library
 <br>
 <br>
-<br>
-<br>
 
 <table>
 <tr>
@@ -21,7 +19,7 @@ repositories {
 }
 </pre>
 <pre>
-//add this to your app(/module) dependencies
+//add this to your module dependencies
 testImplementation 'ir.alireza.easazade:junit-dsl:0.1.1'
 </pre>
 </td>
