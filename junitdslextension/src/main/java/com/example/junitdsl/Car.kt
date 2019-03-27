@@ -1,3 +1,3 @@
 package com.example.junitdsl
 
-class Car(val name:String)
+open class Car(val name: String)
