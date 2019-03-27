@@ -26,5 +26,28 @@ testImplementation 'ir.alireza.easazade:junit-dsl:0.1.1'
 </tr>
 </table>
 
-# Docs
-library is currently under development Documentations will be added later on
+# Examples
+
+### objects
+
+````kotlin
+val flag = true
+flag shouldEqualTo true //assertion passes
+
+val name = "alireza"
+name shouldEqualTo "alireza" //assertion passess
+````
+
+### collections
+
+````kotlin
+val list = listOf("item1", "item2", "car", "dog")
+
+list shouldContainAtLeasOneItemMatching { it.contains("item") } //assertion passess
+
+list shouldNotContainAnyItemMatching { it.contains("shapoor") } //assertion passess
+
+val listOfBooks = listOf<Book>()
+listOfBooks shouldBe EMPTY //assertion passess
+
+````
