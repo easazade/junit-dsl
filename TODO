@@ -1,2 +1,30 @@
-to do for collections :
-list shouldContain atLeast 1 itemMatching
+todo for collections :
+
+collection shouldContain atLeast 1 itemMatching { PREDICATE }
+collection shouldContain atMost 1 itemMatching { PREDICATE }
+collection shouldContain exactly 1 itemMatching { PREDICATE }
+
+collection shouldContain ITEM
+collection shouldNotContain ITEM
+
+collection itemsShould ALL match{ PREDICATE }
+collection itemsShould NONE match{ PREDICATE }
+
+collection shouldNotContain anyItemMatching { PREDICATE }
+
+todo for objects :
+
+object shouldBe null
+object1 shouldEqualTo object2
+object1 shouldNotEqualTo object2
+object shouldBeOfType Class
+
+todo for numbers :
+
+number shouldBeInRange 1..50
+number shouldBeOutOfRage 1..50
+
+
+
+
+
