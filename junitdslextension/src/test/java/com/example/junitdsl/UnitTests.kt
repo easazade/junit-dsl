@@ -1,5 +1,6 @@
 package com.example.junitdsl
 
+import org.junit.Assert.*
 import org.junit.Test
 
 class UnitTests {
@@ -28,5 +29,11 @@ class UnitTests {
     val car1 = Car("flying car")
     val car2 = car1
     car1 shouldBeSameAs car2
+  }
+
+  @Test
+  fun paowmdpoawm() {
+    assertTrue(4 == 6 - 2)
+    4 shouldEqualTo 6 - 2
   }
 }
